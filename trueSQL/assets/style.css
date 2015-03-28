@@ -1,0 +1,140 @@
+/* 
+    Created on : 8 mars 2015, 08:55:02
+    Author     : latour
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-image: url('img/main.jpg');
+    /*           Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.entete{
+    background: #f4f8fa;
+    border-left: 4px solid #5198e7;
+    margin: auto;
+    width: 60%;
+    padding: 2%;
+    color: #2d2f2f;
+}
+.entete p{
+    font-size: x-large;
+    color: #5198e7;
+}
+.entete a{
+    text-decoration: none;
+    color: #c12e2a;
+}
+.entete a:hover{
+    text-decoration: underline;
+}
+
+.install-config-box{
+    width: 50%;
+    margin: 7% auto;
+}
+
+.version{
+    font-size: small;
+}
+
+.wrong{
+    color: red !important;
+}
+
+.primary_text{
+    color: #2860a9;
+}
+
+.info_text{
+    color: #31b0d5;
+}
+
+.delimiter_bg{
+    background-color: #fff;
+}
+
+.spacer{
+    margin-top: 33.333333px;
+}
+
+.login-box{
+    width: 30%;
+    margin: 5% auto;
+}
+
+.panel-util{
+    color: #767676;
+    background-color:#2D2B32;
+    border-color: #b0b3b5
+}
+
+.panel-util {
+    border-color: #b0b3b5
+}
+.panel-util > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: #b0b3b5
+}
+.panel-util > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: #b0b3b5
+}
+
+.btn-title{
+    border: 1px solid #d0cfd2;
+    line-height: 100px;
+    padding-top: 10px;
+    transition: 0.2s ease;
+}
+
+.btn-title h4{
+    color: #333333;
+}
+
+.btn-title:hover {
+    box-shadow: 0px 3px 5px 0px #8f9292;
+}
+
+.btn-title .icon{
+    font-size: 2.8em;
+    color: orange;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #e7e7e7;
+    padding-top: 15px;
+    border-top: 2px solid #E7E7E7;
+    text-align: right;
+    background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);border-radius:4px;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075)
+}
+.editer{
+    color: inherit;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.editer:hover{
+    
+}
+
+.none-validate{
+    background: orange;
+}
+
+.badge-notification{
+    background: orange;
+    border: 1px solid white;
+}
+
+.btn-type-1{
+    float: right ;
+    margin-left: 5px;
+}
